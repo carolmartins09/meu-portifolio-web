@@ -1,0 +1,149 @@
+header {
+    background: rgba(0, 0, 0, 0.8) url("img/img-codigos.jpg");
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+    border: none;
+    padding: 32px;
+    height: 280px;
+    width: auto;
+}
+
+.menu-navegacao {
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.foto-perfil {
+    width: 200px;
+    position: absolute;
+    top: 64px;
+}
+
+.navegacao {
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+}
+
+nav li, a {
+    top: 24px;
+    display: inline;
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0 8px 0 8px;
+    font-family: 'Fira Code', monospace;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+nav a:hover {
+    color: #49aac6;
+}
+
+.informacoes {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    top: 80px;
+    left: 464px;
+}
+
+.nome-carol-martins {
+    font-size: 56px;
+    font-family: 'Roboto Mono', monospace;
+    margin-bottom: 16px;
+}
+
+.subtitulo {
+    font-size: 24px;
+    font-family: 'Roboto Mono', monospace;
+    margin-bottom: 16px;
+}
+
+
+.informacoes-contato {
+    font-size: 18px;
+    font-family: 'Fira Code', monospace;
+    margin-left: 16px;
+}
+
+.email, .whatsapp, .localizacao {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.img-email, .img-whatsapp, .img-localizacao {
+    width: 32px;
+}
+
+.redes-sociais {
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+    top: 104px;
+    right: 200px;
+}
+
+.carol-martins-git, .carol-martins-linkedin, .carol-martins-instagram {
+    width: 40px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.carol-martins-git:hover, .carol-martins-linkedin:hover, .carol-martins-instagram:hover {
+    transform: scale(1.2);
+}
+
+.sobre-mim {
+    width: 960px;
+    position: relative;
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    margin-top: 32px;
+    margin-left: 200px;
+    align-items: center;
+}
+
+.sobre-mim h2{
+    font-size: 24px;
+    margin-bottom: 16px;
+    text-align: end;
+}
+
+.sobre-mim p{
+    font-size: 16px;
+    text-align: end;
+    line-height: 20px;
+}
+
+.foto-sobre-mim {
+    width: 224px;
+    margin-left: 32px;
+    border-radius: 16px;
+    transition: 1s;
+}
+
+.foto-sobre-mim:hover {
+    opacity: 0.5;
+}
+
+.formacao {
+    display: flex;
+    width: 960px;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 32px;
+    margin-left: 200px;
+}
+
+.formacao h2{
+    font-size: 24px;
+    margin-bottom: 16px;
+    text-align: start;
+}
