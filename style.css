@@ -101,7 +101,7 @@ nav a:hover {
     transform: scale(1.2);
 }
 
-.sobre-mim {
+#sobre-mim {
     width: 960px;
     position: relative;
     font-family: 'Roboto Mono', monospace;
@@ -111,17 +111,18 @@ nav a:hover {
     align-items: center;
 }
 
-.sobre-mim h2{
+#sobre-mim h2, #experiencias h2{
     font-size: 24px;
     margin-bottom: 16px;
     text-align: end;
     font-weight: bold;
 }
 
-.sobre-mim p{
+#sobre-mim p, .resumo-experiencias {
     font-size: 16px;
     text-align: end;
     line-height: 20px;
+    margin-bottom: 40px;
 }
 
 .empower {
@@ -139,7 +140,7 @@ nav a:hover {
     opacity: 0.5;
 }
 
-.formacao {
+#formacao {
     display: flex;
     flex-direction: column;
     width: 960px;
@@ -148,7 +149,7 @@ nav a:hover {
     margin-left: 200px;
 }
 
-.formacao h2 {
+#formacao h2 {
     font-size: 24px;
     margin-bottom: 16px;
     text-align: start;
@@ -172,6 +173,39 @@ nav a:hover {
 }
 
 .containers-formacao {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+#experiencias {
+    width: 960px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 32px;
+    margin-left: 200px;
+}
+
+.ducatti, .atuare, .edarcon, .panassolo, .cm-eng {
+    background-color: #49aac6;
+    position: relative;
+    padding: 16px;
+    border-radius: 16px;
+    line-height: 24px;
+    width: 416px;
+}
+
+.ducatti h3, .atuare h3, .edarcon h3, .panassolo h3, .cm-eng h3 {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.containers-experiencias {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
