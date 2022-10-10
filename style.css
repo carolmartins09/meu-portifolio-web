@@ -115,12 +115,17 @@ nav a:hover {
     font-size: 24px;
     margin-bottom: 16px;
     text-align: end;
+    font-weight: bold;
 }
 
 .sobre-mim p{
     font-size: 16px;
     text-align: end;
     line-height: 20px;
+}
+
+.empower {
+    font-weight: bold;
 }
 
 .foto-sobre-mim {
@@ -136,14 +141,40 @@ nav a:hover {
 
 .formacao {
     display: flex;
+    flex-direction: column;
     width: 960px;
     font-family: 'Roboto Mono', monospace;
     margin-top: 32px;
     margin-left: 200px;
 }
 
-.formacao h2{
+.formacao h2 {
     font-size: 24px;
     margin-bottom: 16px;
     text-align: start;
+    position: relative;
+    font-weight: bold;
+}
+
+.descomplica, .unisinos, .marques, .cursos-livres {
+    background-color: #49aac6;
+    position: relative;
+    padding: 16px;
+    border-radius: 16px;
+    line-height: 24px;
+    width: 416px;
+}
+
+.descomplica h3, .unisinos h3, .marques h3, .cursos-livres h3 {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.containers-formacao {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
 }
