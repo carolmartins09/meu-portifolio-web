@@ -6,7 +6,7 @@ header {
     border: none;
     padding: 32px;
     height: 280px;
-    width: auto;
+    width: 1280px;
 }
 
 .menu-navegacao {
@@ -99,6 +99,10 @@ nav a:hover {
 
 .carol-martins-git:hover, .carol-martins-linkedin:hover, .carol-martins-instagram:hover {
     transform: scale(1.2);
+}
+
+.conteudo-principal {
+    width: 1280px;
 }
 
 #sobre-mim {
@@ -211,4 +215,50 @@ nav a:hover {
     flex-wrap: wrap;
     gap: 40px;
     justify-content: center;
+}
+
+#habilidades {
+    display: flex;
+    flex-direction: column;
+    width: 960px;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 32px;
+    margin-left: 200px;
+}
+
+#habilidades h2 {
+    font-size: 24px;
+    margin-bottom: 24px;
+    text-align: start;
+    position: relative;
+    font-weight: bold;
+}
+
+.containers-habilidades {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+.hard-skills, .soft-skills {
+    background-color: #49aac6;
+    position: relative;
+    padding: 16px;
+    border-radius: 16px;
+    line-height: 24px;
+    width: 416px;
+}
+
+.hard-skills h3, .soft-skills h3 {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.skills:before {
+    content: "• ";
 }
