@@ -110,8 +110,7 @@ nav a:hover {
     position: relative;
     font-family: 'Roboto Mono', monospace;
     display: flex;
-    margin-top: 32px;
-    margin-left: 200px;
+    margin: 32px auto auto 200px;
     align-items: center;
 }
 
@@ -149,13 +148,12 @@ nav a:hover {
     flex-direction: column;
     width: 960px;
     font-family: 'Roboto Mono', monospace;
-    margin-top: 32px;
-    margin-left: 200px;
+    margin: 32px auto auto 200px;
 }
 
 #formacao h2 {
     font-size: 24px;
-    margin-bottom: 16px;
+    margin: auto auto 16px 24px;
     text-align: start;
     position: relative;
     font-weight: bold;
@@ -168,6 +166,7 @@ nav a:hover {
     border-radius: 16px;
     line-height: 24px;
     width: 416px;
+    box-shadow: 10px 10px 10px 0 #000000;
 }
 
 .descomplica h3, .unisinos h3, .marques h3, .cursos-livres h3 {
@@ -182,6 +181,7 @@ nav a:hover {
     flex-wrap: wrap;
     gap: 40px;
     justify-content: center;
+    margin-bottom: 40px;
 }
 
 #experiencias {
@@ -190,8 +190,7 @@ nav a:hover {
     flex-direction: column;
     position: relative;
     font-family: 'Roboto Mono', monospace;
-    margin-top: 32px;
-    margin-left: 200px;
+    margin: 32px auto 40px 200px;
 }
 
 .ducatti, .atuare, .edarcon, .panassolo, .cm-eng {
@@ -201,6 +200,7 @@ nav a:hover {
     border-radius: 16px;
     line-height: 24px;
     width: 416px;
+    box-shadow: 10px 10px 10px 0 #000000;
 }
 
 .ducatti h3, .atuare h3, .edarcon h3, .panassolo h3, .cm-eng h3 {
@@ -222,13 +222,12 @@ nav a:hover {
     flex-direction: column;
     width: 960px;
     font-family: 'Roboto Mono', monospace;
-    margin-top: 32px;
-    margin-left: 200px;
+    margin: 32px auto auto 200px;
 }
 
 #habilidades h2 {
     font-size: 24px;
-    margin-bottom: 24px;
+    margin: 0 0 24px 24px;
     text-align: start;
     position: relative;
     font-weight: bold;
@@ -249,6 +248,8 @@ nav a:hover {
     border-radius: 16px;
     line-height: 24px;
     width: 416px;
+    box-shadow: 10px 10px 10px 0 #000000;
+    margin-bottom: 40px;
 }
 
 .hard-skills h3, .soft-skills h3 {
@@ -261,6 +262,40 @@ nav a:hover {
 
 .skills:before {
     content: "• ";
+}
+
+#interesses {
+    width: 960px;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 32px;
+    margin-left: 200px;
+}
+
+#interesses h2 {
+    font-size: 24px;
+    margin-bottom: 24px;
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+}
+
+.interesses-pessoais {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.interesses-pessoais img {
+    width: 64px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.interesses-pessoais img:hover {
+    transform: scale(1.2);
 }
 
 footer {
