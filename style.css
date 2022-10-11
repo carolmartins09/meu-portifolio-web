@@ -241,7 +241,7 @@ nav a:hover {
     justify-content: center;
 }
 
-.hard-skills, .soft-skills {
+.tecnicas, .comportamentais {
     background-color: #49aac6;
     position: relative;
     padding: 16px;
@@ -252,7 +252,7 @@ nav a:hover {
     margin-bottom: 40px;
 }
 
-.hard-skills h3, .soft-skills h3 {
+.tecnicas h3, .comportamentais h3 {
     font-size: 16px;
     font-weight: bold;
     text-transform: uppercase;
@@ -267,8 +267,7 @@ nav a:hover {
 #interesses {
     width: 960px;
     font-family: 'Roboto Mono', monospace;
-    margin-top: 32px;
-    margin-left: 200px;
+    margin: 32px auto auto 200px;;
 }
 
 #interesses h2 {
@@ -341,4 +340,45 @@ footer {
 
 .carol-martins-rodape h4 {
     font-size: 16px;
+}
+
+#certificados {
+    width: 960px;
+    font-family: 'Roboto Mono', monospace;
+    margin: 32px auto 48px 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+#certificados h1 {
+    font-size: 24px;
+    margin-bottom: 24px;
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+    text-shadow: 4px 4px 2px #49aac6;
+}
+
+.hard-skills h2, .soft-skills h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 24px auto 24px 24px;
+}
+
+.hard-skills a, .soft-skills a {
+    font-size: 16px;
+    color:#000000;
+    line-height: 32px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.hard-skills li:before, .soft-skills li:before {
+    content: "• ";
+}
+
+.hard-skills a:hover, .soft-skills a:hover {
+    font-weight: bold;
+    font-size: 17px;
 }
