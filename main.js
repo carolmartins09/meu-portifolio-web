@@ -1,30 +1,75 @@
-let gatinho = document.querySelector("#gatinho");
-let textoGatinhos = document.querySelector(".gatinho-texto");
 
-gatinho.addEventListener("click", abrirTextoGatinhos);
+//let textosInteresses = document.querySelectorAll(".textos");
 
-// function mostrarTextoGatinhos() {
-//     textoGatinhos.style.display = "block";
+function mostraTexto (idTextosInteresses){
+    idTextosInteresses.classList.toggle("display");
+}
+
+let iconesInteresses = document.querySelectorAll("#icone");
+
+for (let i = 0; i < iconesInteresses.length; i++) {
+
+    const botao = iconesInteresses[i];
+    const icone = botao.classList[0]
+    const idTextosInteresses = `#texto-${icone}`;
+
+    botao.onclick = function () {
+        mostraTexto("idTextosInteresses");
+    }
+
+    console.log(icone)
+    console.log(botao)
+    console.log(idTextosInteresses)
+}
+
+
+
+
+
+// function mostraTexto(idTextoInteresses) {
+//     idTextoInteresses.classList.toggle("display");
+// }
+
+// let contador = 0;
+
+// while (contador < iconesInteresses.length) {
+
+//     const botao = iconesInteresses[contador];
+//     const icone = botao.classList[1];
+//     const idTexto = `#texto-${icone}`;
+
+//     botao.onclick = function () {
+//         mostraTexto ("idTexto");
+//     }
+
+//     contador = contador + 1
 // }
 
 
-function abrirTextoGatinhos() {
-    if (textoGatinhos.style.display === "block") {
-        textoGatinhos.style.display = "none";
-    } else {
-        textoGatinhos.style.display = "block";
-    }
-}
 
-let estrelas = document.querySelector("#estrelas");
-let textoEstrelas = document.querySelector(".estrelas-texto");
 
-estrelas.addEventListener("click", abrirTextoEstrelas);
 
-function abrirTextoEstrelas() {
-    if (textoEstrelas.style.display === "block") {
-        textoEstrelas.style.display = "none";
-    } else {
-        textoEstrelas.style.display = "block";
-    }
-}
+
+
+
+// let gatinho = document.querySelector("#gatinho");
+// let textoGatinhos = document.querySelector(".gatinho-texto");
+// let estrelas = document.querySelector("#estrelas");
+// let textoEstrelas = document.querySelector(".estrelas-texto");
+// let gamer = document.querySelector("#gamer");
+// let textoGamer = document.querySelector(".gamer-texto");
+
+// gatinho.addEventListener("click", abrirTextoGatinhos);
+// function abrirTextoGatinhos() {
+//     textoGatinhos.classList.toggle("display");
+// }
+
+// estrelas.addEventListener("click", abrirTextoEstrelas);
+// function abrirTextoEstrelas() {
+//     textoEstrelas.classList.toggle("display");
+// }
+
+// gamer.addEventListener("click", abrirTextoGamer);
+// function abrirTextoGamer() {
+//     textoGamer.classList.toggle("display");
+// }

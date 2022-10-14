@@ -297,12 +297,12 @@ nav a:hover {
     transform: scale(1.2);
 }
 
-#gatinho, #estrelas, #gamer, #naruto, #planta {
+.gatinho, .estrelas, .gamer, .naruto, .planta {
     border: none;
     background: none;
 }
 
-.gatinho-texto {
+#texto-gatinhos, #texto-estrelas, #texto-gamer {
     position: relative;
     background-color: #49aac6;
     padding: 16px;
@@ -311,26 +311,25 @@ nav a:hover {
     width: 416px;
     box-shadow: 10px 10px 10px 0 #000000;
     text-align: center;
+    transition: 1s all;
+    display: none;
+}
+
+#texto-gatinhos {
     margin: auto auto 40px 56px;
-    transition: 1s all;
-    display: none;
 }
 
-.estrelas-texto {
-    position: relative;
-    background-color: #49aac6;
-    padding: 16px;
-    border-radius: 16px;
-    line-height: 24px;
-    width: 416px;
-    box-shadow: 10px 10px 10px 0 #000000;
-    text-align: center;
-    margin: auto auto 40px 200px;
-    transition: 1s all;
-    display: none;
+#texto-estrelas {
+    margin: auto auto 40px 160px;
 }
 
+#texto-gamer {
+    margin: auto auto 40px 280px;
+}
 
+.display {
+    display: block;
+}
 
 footer {
     background: rgba(0, 0, 0, 0.8) url("img/img-codigos.jpg");
