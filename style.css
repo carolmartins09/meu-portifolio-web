@@ -297,12 +297,12 @@ nav a:hover {
     transform: scale(1.2);
 }
 
-.gatinho, .estrelas, .gamer, .naruto, .planta {
+.icone {
     border: none;
     background: none;
 }
 
-#texto-gatinhos, #texto-estrelas, #texto-gamer {
+#texto-gatinho, #texto-estrelas, #texto-gamer {
     position: relative;
     background-color: #49aac6;
     padding: 16px;
@@ -312,10 +312,9 @@ nav a:hover {
     box-shadow: 10px 10px 10px 0 #000000;
     text-align: center;
     transition: 1s all;
-    display: none;
 }
 
-#texto-gatinhos {
+#texto-gatinho {
     margin: auto auto 40px 56px;
 }
 
@@ -327,7 +326,11 @@ nav a:hover {
     margin: auto auto 40px 280px;
 }
 
-.display {
+.display-none {
+    display: none;
+}
+
+.display-block {
     display: block;
 }
 

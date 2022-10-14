@@ -1,11 +1,13 @@
-
+let iconesInteresses = document.querySelectorAll(".icone");
 //let textosInteresses = document.querySelectorAll(".textos");
 
 function mostraTexto (idTextosInteresses){
-    idTextosInteresses.classList.toggle("display");
+
+    let textosInteresses = document.querySelector(idTextosInteresses);
+
+    textosInteresses.classList.remove("display-none");
 }
 
-let iconesInteresses = document.querySelectorAll("#icone");
 
 for (let i = 0; i < iconesInteresses.length; i++) {
 
@@ -14,13 +16,11 @@ for (let i = 0; i < iconesInteresses.length; i++) {
     const idTextosInteresses = `#texto-${icone}`;
 
     botao.onclick = function () {
-        mostraTexto("idTextosInteresses");
+        mostraTexto(idTextosInteresses);
     }
-
-    console.log(icone)
-    console.log(botao)
-    console.log(idTextosInteresses)
 }
+
+
 
 
 
@@ -53,7 +53,7 @@ for (let i = 0; i < iconesInteresses.length; i++) {
 
 
 // let gatinho = document.querySelector("#gatinho");
-// let textoGatinhos = document.querySelector(".gatinho-texto");
+// let textoGatinho = document.querySelector(".gatinho-texto");
 // let estrelas = document.querySelector("#estrelas");
 // let textoEstrelas = document.querySelector(".estrelas-texto");
 // let gamer = document.querySelector("#gamer");
