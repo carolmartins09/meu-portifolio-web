@@ -302,7 +302,7 @@ nav a:hover {
     background: none;
 }
 
-.textos {
+.caixa-textos {
     position: relative;
     background-color: #49aac6;
     padding: 16px;
@@ -314,41 +314,10 @@ nav a:hover {
     transition: 1s all;
 }
 
-#texto-gatinho {
-    margin: auto auto 40px 40px;
-}
-
-#texto-estrelas {
-    margin: auto auto 40px 128px;
-}
-
-#texto-gamer {
-    margin: auto auto 40px 216px;
-}
-
-#texto-naruto {
-    margin: auto auto 40px 304px;
-}
-
-#texto-planta {
-    margin: auto auto 40px 392px;
-}
-
-#texto-yoga {
-    margin: auto auto 40px 480px;
-}
-
-.display {
-    display: block;
-}
-
-.display-none {
+#interesses-textos {
     display: none;
 }
 
-.display-block {
-    display: block;
-} 
 
 footer {
     background: rgba(0, 0, 0, 0.8) url("img/img-codigos.jpg");
