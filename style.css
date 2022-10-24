@@ -64,7 +64,6 @@ nav a:hover {
     margin-bottom: 16px;
 }
 
-
 .informacoes-contato {
     font-size: 18px;
     font-family: 'Fira Code', monospace;
@@ -82,13 +81,13 @@ nav a:hover {
 }
 
 .redes-sociais {
-    position:absolute;
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 200px;
-    top: 104px;
-    right: 200px;
+    margin: 64px 0 0 1072px;
+    align-items:baseline;
 }
 
 .carol-martins-git, .carol-martins-linkedin, .carol-martins-instagram {
@@ -267,7 +266,7 @@ nav a:hover {
 #interesses {
     width: 960px;
     font-family: 'Roboto Mono', monospace;
-    margin: 32px auto auto 200px;;
+    margin: 32px auto auto 200px;
 }
 
 #interesses h2 {
@@ -302,22 +301,32 @@ nav a:hover {
     background: none;
 }
 
-.caixa-textos {
+#caixa-textos {
     position: relative;
     background-color: #49aac6;
-    padding: 16px;
+    padding: 0 16px 16px 16px;
     border-radius: 16px;
     line-height: 24px;
-    width: 416px;
+    width: 480px;
     box-shadow: 10px 10px 10px 0 #000000;
     text-align: center;
     transition: 1s all;
+    margin: 0 0 40px 216px;
 }
 
-#interesses-textos {
+.interesses-textos {
     display: none;
 }
 
+.fechar-texto {
+    border: none;
+    background: none;
+    margin: 0px 0px 0px 456px;
+    font-size: 8px;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+}
 
 footer {
     background: rgba(0, 0, 0, 0.8) url("img/img-codigos.jpg");
