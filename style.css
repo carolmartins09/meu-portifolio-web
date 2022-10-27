@@ -1,4 +1,4 @@
-header {
+#header {
     background: rgba(0, 0, 0, 0.8) url("img/img-codigos.jpg");
     background-position: center;
     background-size: cover;
@@ -6,19 +6,13 @@ header {
     border: none;
     padding: 32px;
     height: 280px;
-    width: 1280px;
+    width: auto;
 }
 
 .menu-navegacao {
     position: relative;
-    width: 960px;
+    width: 1080px;
     margin: 0 auto;
-}
-
-.foto-perfil {
-    width: 200px;
-    position: absolute;
-    top: 64px;
 }
 
 .navegacao {
@@ -43,13 +37,21 @@ nav a:hover {
     color: #49aac6;
 }
 
+.foto-perfil {
+    width: 200px;
+    position: absolute;
+    margin: 56px auto auto auto;
+    padding-left: 152px;
+}
+
 .informacoes {
     position: absolute;
     display: flex;
     flex-direction: column;
     color: #ffffff;
-    top: 80px;
-    left: 464px;
+    padding-left: 464px;
+    width: 552px;
+    margin: 36px auto auto auto;
 }
 
 .nome-carol-martins {
@@ -81,13 +83,14 @@ nav a:hover {
 }
 
 .redes-sociais {
-    position: relative;
+    position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 200px;
-    margin: 64px 0 0 1072px;
+    margin: 56px auto auto auto;
     align-items:baseline;
+    padding-left: 1072px;
 }
 
 .carol-martins-git, .carol-martins-linkedin, .carol-martins-instagram {
@@ -105,11 +108,11 @@ nav a:hover {
 }
 
 #sobre-mim {
-    width: 960px;
+    width: 1080px;
     position: relative;
     font-family: 'Roboto Mono', monospace;
     display: flex;
-    margin: 32px auto auto 200px;
+    margin: 32px auto auto auto;
     align-items: center;
 }
 
@@ -145,17 +148,18 @@ nav a:hover {
 #formacao {
     display: flex;
     flex-direction: column;
-    width: 960px;
+    width: 1080px;
     font-family: 'Roboto Mono', monospace;
-    margin: 32px auto auto 200px;
+    margin: 32px auto auto auto;
 }
 
 #formacao h2 {
     font-size: 24px;
-    margin: auto auto 16px 24px;
+    margin: auto auto 16px auto;
     text-align: start;
     position: relative;
     font-weight: bold;
+    padding-right: 920px;
 }
 
 .descomplica, .unisinos, .marques, .cursos-livres {
@@ -164,7 +168,7 @@ nav a:hover {
     padding: 16px;
     border-radius: 16px;
     line-height: 24px;
-    width: 416px;
+    width: 476px;
     box-shadow: 10px 10px 10px 0 #000000;
 }
 
@@ -184,12 +188,12 @@ nav a:hover {
 }
 
 #experiencias {
-    width: 960px;
+    width: 1080px;
     display: flex;
     flex-direction: column;
     position: relative;
     font-family: 'Roboto Mono', monospace;
-    margin: 32px auto 40px 200px;
+    margin: 32px auto 40px auto;
 }
 
 .ducatti, .atuare, .edarcon, .panassolo, .cm-eng {
@@ -198,7 +202,7 @@ nav a:hover {
     padding: 16px;
     border-radius: 16px;
     line-height: 24px;
-    width: 416px;
+    width: 476px;
     box-shadow: 10px 10px 10px 0 #000000;
 }
 
@@ -219,17 +223,18 @@ nav a:hover {
 #habilidades {
     display: flex;
     flex-direction: column;
-    width: 960px;
+    width: 1080px;
     font-family: 'Roboto Mono', monospace;
-    margin: 32px auto auto 200px;
+    margin: 32px auto auto auto;
 }
 
 #habilidades h2 {
     font-size: 24px;
-    margin: 0 0 24px 24px;
+    margin: 0 0 24px auto;
     text-align: start;
     position: relative;
     font-weight: bold;
+    padding-right: 904px;
 }
 
 .containers-habilidades {
@@ -246,7 +251,7 @@ nav a:hover {
     padding: 16px;
     border-radius: 16px;
     line-height: 24px;
-    width: 416px;
+    width: 476px;
     box-shadow: 10px 10px 10px 0 #000000;
     margin-bottom: 40px;
 }
@@ -264,9 +269,9 @@ nav a:hover {
 }
 
 #interesses {
-    width: 960px;
+    width: 1080px;
     font-family: 'Roboto Mono', monospace;
-    margin: 32px auto auto 200px;
+    margin: 32px auto auto auto;
 }
 
 #interesses h2 {
@@ -307,11 +312,11 @@ nav a:hover {
     padding: 0 16px 16px 16px;
     border-radius: 16px;
     line-height: 24px;
-    width: 480px;
+    width: 520px;
     box-shadow: 10px 10px 10px 0 #000000;
     text-align: center;
     transition: 1s all;
-    margin: 0 0 40px 216px;
+    margin: 0 0 40px 256px;
 }
 
 .interesses-textos {
@@ -336,7 +341,7 @@ footer {
     border: none;
     padding: 32px;
     height: 160px;
-    width: 1280px;
+    width: auto;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
     color: #ffffff;
@@ -374,9 +379,9 @@ footer {
 }
 
 #certificados {
-    width: 960px;
+    width: 1080px;
     font-family: 'Roboto Mono', monospace;
-    margin: 32px auto 48px 200px;
+    margin: 32px auto 48px auto;
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -412,4 +417,11 @@ footer {
 .hard-skills a:hover, .soft-skills a:hover {
     font-weight: bold;
     font-size: 17px;
+}
+
+@media screen and (max-width: 480px) {
+    
+    .menu-navegacao {
+        display: none;
+    }
 }
