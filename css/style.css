@@ -1,66 +1,72 @@
 #header {
-    background: rgba(0, 0, 0, 0.8) url("img/img-codigos.jpg");
+    background: rgba(0, 0, 0, 0.8) url("/img/img-codigos.jpg");
     background-position: center;
-    background-size: cover;
+    background-size:cover;
     background-blend-mode: darken;
     border: none;
     height: 320px;
     width: 100%;
+    margin: auto;
 }
 
 .menu-navegacao {
     text-align: center;
-    background: rgba(0, 0, 0, 0.8) url("img/img-codigos.jpg");
+    background: rgba(0, 0, 0, 0.8) url("/img/img-codigos.jpg");
     background-position: center;
     background-size: cover;
     background-blend-mode: darken;
     height: 40px;
     position: fixed;
-    width: 100%;
-    margin: auto;
     z-index: 1;
+    width: 95%;
 }
 
 .navegacao {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     top: 0;
-    width: 1080px;
-    padding: 16px 0px 16px 120px;
+    padding: 16px;
     position: relative;
 }
 
-nav li, a {
+.navegacao li, .navegacao a {
     top: 24px;
-    display: inline;
     color: #ffffff;
     font-size: 18px;
     text-decoration: none;
-    margin: 0 8px 0 8px;
     font-family: 'Fira Code', monospace;
     transition: 1s all;
     cursor: pointer;
+    padding: 0 24px;
 }
 
 nav a:hover {
     color: #49aac6;
 }
 
+#container-cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: auto;
+    height: 100%;
+    padding: 24px;
+}
+
 .foto-perfil {
     width: 200px;
-    position: absolute;
-    margin: 80px auto auto auto;
-    padding-left: 152px;
+    position: relative;
+    padding: 96px;
 }
 
 .informacoes {
-    position: absolute;
+    position: relative;
     display: flex;
     flex-direction: column;
     color: #ffffff;
-    padding-left: 464px;
     width: 552px;
-    margin: 56px auto auto auto;
 }
 
 .nome-carol-martins {
@@ -79,6 +85,7 @@ nav a:hover {
     font-size: 18px;
     font-family: 'Fira Code', monospace;
     margin-left: 16px;
+    padding: 0 48px;
 }
 
 .email, .whatsapp, .localizacao {
@@ -92,14 +99,13 @@ nav a:hover {
 }
 
 .redes-sociais {
-    position: absolute;
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 200px;
-    margin: 80px auto auto auto;
     align-items:baseline;
-    padding-left: 1072px;
+    padding: 96px;
 }
 
 .carol-martins-git, .carol-martins-linkedin, .carol-martins-instagram {
@@ -113,7 +119,11 @@ nav a:hover {
 }
 
 .conteudo-principal {
-    width: 1280px;
+    width: auto;
+    margin: auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #sobre-mim {
@@ -343,9 +353,9 @@ nav a:hover {
 }
 
 footer {
-    background: rgba(0, 0, 0, 0.8) url("img/img-codigos.jpg");
+    background: rgba(0, 0, 0, 0.8) url("/img/img-codigos.jpg");
     background-position: center;
-    background-size: cover;
+    background-size: auto;
     background-blend-mode: darken;
     border: none;
     padding: 32px;
@@ -361,7 +371,9 @@ footer {
 }
 
 .fale-comigo a {
+    color: #ffffff;
     font-size: 18px;
+    text-decoration: none;
     text-decoration: underline;
     transition: 1s all;
     cursor: pointer;
@@ -428,11 +440,4 @@ footer {
 .hard-skills a:hover, .soft-skills a:hover {
     font-weight: bold;
     font-size: 17px;
-}
-
-@media screen and (max-width: 480px) {
-    
-    .menu-navegacao {
-        display: none;
-    }
 }

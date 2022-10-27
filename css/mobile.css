@@ -1,0 +1,87 @@
+@media screen and (max-width: 480px) {
+    
+    .menu-navegacao {
+        display: none;
+    }
+
+    header, footer,.conteudo-principal {
+        width: 100%;
+        padding: 16px;
+        margin: 0px;
+    }
+
+    #container-cabecalho {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .foto-perfil {
+        width: 25%;
+        margin-top: 32px;
+        padding: 8px;
+    }
+
+    .informacoes {
+        width: 80%;
+        align-items:flex-start;
+        padding-top: 16px;
+        text-align: left;
+    }
+
+    .informacoes h1 {
+        font-size: 24px;
+        margin-bottom: 8px;
+    }
+
+    .informacoes h2 {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+
+    .email, .whatsapp, .localizacao {
+        margin-bottom: 8px;
+    }
+
+    .img-email, .img-whatsapp, .img-localizacao {
+        width: 20px;
+    }
+
+    .email h3, .whatsapp h3, .localizacao h3{
+        font-size: 14px;
+        padding: 0px;
+    }
+
+    .redes-sociais {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 108px;
+        padding: 8px;
+        width: 40%;
+
+    }
+
+    .carol-martins-git, .carol-martins-instagram, .carol-martins-linkedin {
+        width: 24px;
+    }
+
+    #sobre-mim, #formacao, #experiencias, #habilidades, #interesses, #caixa-textos {
+        width: 90%;
+        margin: 16px;
+        padding-bottom: 16px;
+    }
+
+    .sobre-mim-texto {
+        width: 100%;
+    }
+
+    .foto-sobre-mim {
+        display: none;
+    }
+
+    .icone img{
+        width: 24px;
+    }
