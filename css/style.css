@@ -1,5 +1,5 @@
 #header {
-    background: rgba(0, 0, 0, 0.8) url("/img/img-codigos.jpg");
+    background: rgba(0, 0, 0, 0.8) url("img-codigos.jpg");
     background-position: center;
     background-size:cover;
     background-blend-mode: darken;
@@ -11,7 +11,7 @@
 
 .menu-navegacao {
     text-align: center;
-    background: rgba(0, 0, 0, 0.8) url("/img/img-codigos.jpg");
+    background: rgba(0, 0, 0, 0.8) url("img-codigos.jpg");
     background-position: center;
     background-size: cover;
     background-blend-mode: darken;
@@ -197,6 +197,11 @@ nav a:hover {
     text-transform: uppercase;
 }
 
+.cursos-livres a {
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
 .containers-formacao {
     display: flex;
     flex-direction: row;
@@ -353,7 +358,7 @@ nav a:hover {
 }
 
 footer {
-    background: rgba(0, 0, 0, 0.8) url("/img/img-codigos.jpg");
+    background: rgba(0, 0, 0, 0.8) url("img-codigos.jpg");
     background-position: center;
     background-size: auto;
     background-blend-mode: darken;
@@ -399,45 +404,3 @@ footer {
     font-size: 16px;
 }
 
-#certificados {
-    width: 1080px;
-    font-family: 'Roboto Mono', monospace;
-    margin: 32px auto 48px auto;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    padding-left: 200px;
-}
-
-#certificados h1 {
-    font-size: 24px;
-    margin-bottom: 24px;
-    text-align: left;
-    position: relative;
-    font-weight: bold;
-    text-shadow: 4px 4px 2px #49aac6;
-    padding-left: 240px;
-}
-
-.hard-skills h2, .soft-skills h2{
-    font-size: 20px;
-    font-weight: bold;
-    margin: 24px auto 24px 24px;
-}
-
-.hard-skills a, .soft-skills a {
-    font-size: 16px;
-    color:#000000;
-    line-height: 32px;
-    transition: 1s all;
-    cursor: pointer;
-}
-
-.hard-skills li:before, .soft-skills li:before {
-    content: "• ";
-}
-
-.hard-skills a:hover, .soft-skills a:hover {
-    font-weight: bold;
-    font-size: 17px;
-}
