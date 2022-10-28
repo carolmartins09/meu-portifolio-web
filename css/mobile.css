@@ -4,9 +4,9 @@
         display: none;
     }
 
-    header, footer,.conteudo-principal {
+    header, footer, main {
         width: 100%;
-        padding: 8px;
+        padding: 0px;
         margin: 0px;
     }
 
@@ -14,20 +14,21 @@
         display: flex;
         flex-direction: column;
         text-align: center;
-        padding: 0;
+        padding: 8px 0px;
         margin: 0;
+        width: 100%;
+        height: 100%;
     }
 
     .foto-perfil {
         width: 25%;
-        margin-top: 32px;
-        padding: 8px;
+        padding: 4px 8px;
     }
 
     .informacoes {
         width: 80%;
         align-items:flex-start;
-        padding-top: 16px;
+        padding-top: 8px;
         text-align: left;
     }
 
@@ -43,6 +44,7 @@
 
     .email, .whatsapp, .localizacao {
         margin-bottom: 8px;
+        padding: 0px;
     }
 
     .img-email, .img-whatsapp, .img-localizacao {
@@ -58,8 +60,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        height: 108px;
-        padding: 8px;
+        padding: 4px;
         width: 40%;
     }
 
@@ -68,8 +69,8 @@
     }
 
     #sobre-mim, #formacao, #experiencias, #habilidades, #interesses, #caixa-textos {
-        width: 90%;
-        margin: 16px;
+        width: 85%;
+        margin: 16px auto;
         padding-bottom: 16px;
     }
 
@@ -83,5 +84,17 @@
 
     .icone img{
         width: 24px;
+    }
+
+    #container-rodape {
+        width: 100%;
+    }
+
+    .fale-comigo p, .fale-comigo a{
+        font-size: 14px;
+    }
+
+    .carol-martins-rodape h3, .carol-martins-rodape h4 {
+        font-size: 12px;
     }
 }
