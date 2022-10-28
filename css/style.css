@@ -44,6 +44,14 @@ nav a:hover {
     color: #49aac6;
 }
 
+.display-menu-mobile {
+    display: none;
+}
+
+.menu-sanduiche {
+    display: none;
+}
+
 #container-cabecalho {
     display: flex;
     flex-direction: row;

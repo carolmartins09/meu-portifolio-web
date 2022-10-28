@@ -1,7 +1,62 @@
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) { /*768*/
     
     .menu-navegacao {
         display: none;
+    }
+
+    .menu-sanduiche {
+        display: block;
+        width: 40px;
+        position: absolute;
+        padding: 24px;
+        margin-left: 376px;
+    }
+
+    .display-menu-mobile {
+        display: none;
+    }
+        
+    #menu-mobile {
+        background-color: #49aac6;
+        position: fixed;
+        padding: 16px;
+        border-radius: 16px;
+        line-height: 24px;
+        width: 40%;
+        box-shadow: 0px 0px 8px 4px #ffffff;
+        z-index: 1;
+        text-align: start;
+        margin: 16px 8px auto 240px;
+        height: 240px;
+    }
+
+    #menu-mobile a {
+        text-decoration: none;
+        color: #000000;
+        font-size: 18px;
+        font-family: 'Fira Code', monospace;
+        transition: 1s all;
+        cursor: pointer;
+    }
+
+    #menu-mobile a:hover {
+        font-weight: bold;
+        font-size: 19px;
+    }
+
+    #menu-mobile li {
+        padding-bottom: 16px;
+    }
+
+    .fechar-menu {
+        width: 100%;
+        border: none;
+        background: none;
+        text-align: end;
+        font-size: 16px;
+        color: #ffffff;
+        font-weight: bold;
+        cursor: pointer;
     }
 
     #header, #conteudo-principal, .container-rodape {
@@ -21,7 +76,7 @@
     }
 
     .foto-perfil {
-        width: 64px;
+        width: 80px;
         padding: 8px 8px;
     }
 
@@ -67,12 +122,6 @@
 
     .carol-martins-git, .carol-martins-instagram, .carol-martins-linkedin {
         width: 24px;
-    }
-
-    #sobre-mim, #formacao, #experiencias, #habilidades, #interesses, #caixa-textos {
-        width: 90%;
-        margin: 16px auto;
-        padding-bottom: 16px;
     }
 
     .sobre-mim-texto {
