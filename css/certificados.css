@@ -1,11 +1,15 @@
 #certificados {
-    width: 1080px;
+    width: 1280px;
     font-family: 'Roboto Mono', monospace;
     margin: 32px auto 48px auto;
     display: flex;
     flex-direction: column;
     gap: 16px;
     padding-left: 200px;
+}
+
+.hard-skills, .soft-skills {
+    width: 100%;
 }
 
 #certificados h1 {

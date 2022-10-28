@@ -98,4 +98,25 @@
     .carol-martins-rodape h3, .carol-martins-rodape h4 {
         font-size: 12px;
     }
+
+    #certificados {
+        width: 480px;
+        padding: 0px;
+    }
+
+    #certificados h1 {
+        padding: 0px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .hard-skills-certificados li, .soft-skills-certificados li {
+        padding-bottom: 8px;
+        position: relative;
+    }
+
+    .hard-skills, .soft-skills {
+        width: 90%;
+        margin: auto;
+    }
 }
