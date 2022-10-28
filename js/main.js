@@ -1,3 +1,20 @@
+// menu mobile
+
+const menu = document.querySelector('#menu-mobile');
+const iconeMenu = document.querySelector('.menu-sanduiche');
+const fecharMenu = document.querySelector('.fechar-menu');
+
+function abrirMenuMobile() {
+    menu.classList.remove('display-menu-mobile');
+}
+
+function fecharMenuMobile() {
+    menu.classList.add('display-menu-mobile');
+}
+
+iconeMenu.onclick = abrirMenuMobile
+fecharMenu.onclick = fecharMenuMobile
+
 // seção interesses
 
 let iconesInteresses = document.querySelectorAll(".icone");
@@ -33,20 +50,3 @@ function mostraTexto(idTextosInteresses) {
 botaoFecharTexto.onclick = function() {
     divInteresses.classList.add("interesses-textos");
 }
-
-// menu mobile
-
-const menu = document.querySelector('#menu-mobile');
-const iconeMenu = document.querySelector('.menu-sanduiche');
-const fecharMenu = document.querySelector('.fechar-menu');
-
-function abrirMenuMobile() {
-    menu.classList.remove('display-menu-mobile');
-}
-
-function fecharMenuMobile() {
-    menu.classList.add('display-menu-mobile');
-}
-
-iconeMenu.onclick = abrirMenuMobile
-fecharMenu.onclick = fecharMenuMobile
