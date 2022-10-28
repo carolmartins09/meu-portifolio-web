@@ -50,4 +50,3 @@ function fecharMenuMobile() {
 
 iconeMenu.onclick = abrirMenuMobile
 fecharMenu.onclick = fecharMenuMobile
-
