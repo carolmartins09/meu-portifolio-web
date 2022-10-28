@@ -10,7 +10,7 @@
 }
 
 .menu-navegacao {
-    text-align: center;
+    position: relative;
     background: rgba(0, 0, 0, 0.8) url("img-codigos.jpg");
     background-position: center;
     background-size: cover;
@@ -24,9 +24,9 @@
 .navegacao {
     display: flex;
     justify-content: center;
-    top: 0;
-    padding: 16px;
-    position: relative;
+    text-align: center;
+    margin: 4px auto;
+    width: 1280px;
 }
 
 .navegacao li, .navegacao a {
@@ -50,15 +50,19 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     margin: auto;
-    width: auto;
+    width: 1280px;
     height: 100%;
     padding: 24px;
+}
+
+.foto {
+    width: 20%;
 }
 
 .foto-perfil {
     width: 200px;
     position: relative;
-    padding: 96px;
+    padding: 0px;
 }
 
 .informacoes {
@@ -66,7 +70,7 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     color: #ffffff;
-    width: 552px;
+    width: 50%;
 }
 
 .nome-carol-martins {
@@ -105,7 +109,8 @@ nav a:hover {
     justify-content: space-between;
     height: 200px;
     align-items:baseline;
-    padding: 96px;
+    padding: 96px 0px;
+    width: 10%;
 }
 
 .carol-martins-git, .carol-martins-linkedin, .carol-martins-instagram {
@@ -118,8 +123,8 @@ nav a:hover {
     transform: scale(1.2);
 }
 
-.conteudo-principal {
-    width: auto;
+#conteudo-principal {
+    width: 1280px;
     margin: auto;
     display:flex;
     flex-direction: column;
@@ -127,7 +132,7 @@ nav a:hover {
 }
 
 #sobre-mim {
-    width: 1080px;
+    width: 90%;
     position: relative;
     font-family: 'Roboto Mono', monospace;
     display: flex;
@@ -167,18 +172,17 @@ nav a:hover {
 #formacao {
     display: flex;
     flex-direction: column;
-    width: 1080px;
+    width: 90%;
     font-family: 'Roboto Mono', monospace;
     margin: 32px auto auto auto;
 }
 
 #formacao h2 {
     font-size: 24px;
-    margin: auto auto 16px auto;
+    margin: auto auto 16px 16px;
     text-align: start;
     position: relative;
     font-weight: bold;
-    padding-right: 920px;
 }
 
 .descomplica, .unisinos, .marques, .cursos-livres {
@@ -187,7 +191,7 @@ nav a:hover {
     padding: 16px;
     border-radius: 16px;
     line-height: 24px;
-    width: 476px;
+    width: 45%;
     box-shadow: 10px 10px 10px 0 #000000;
 }
 
@@ -212,12 +216,12 @@ nav a:hover {
 }
 
 #experiencias {
-    width: 1080px;
+    width: 90%;
     display: flex;
     flex-direction: column;
     position: relative;
     font-family: 'Roboto Mono', monospace;
-    margin: 32px auto 40px auto;
+    margin: auto;
 }
 
 .ducatti, .atuare, .edarcon, .panassolo, .cm-eng {
@@ -226,7 +230,7 @@ nav a:hover {
     padding: 16px;
     border-radius: 16px;
     line-height: 24px;
-    width: 476px;
+    width: 45%;
     box-shadow: 10px 10px 10px 0 #000000;
 }
 
@@ -247,18 +251,17 @@ nav a:hover {
 #habilidades {
     display: flex;
     flex-direction: column;
-    width: 1080px;
+    width: 90%;
     font-family: 'Roboto Mono', monospace;
     margin: 32px auto auto auto;
 }
 
 #habilidades h2 {
     font-size: 24px;
-    margin: 0 0 24px auto;
+    margin: 16px;
     text-align: start;
     position: relative;
     font-weight: bold;
-    padding-right: 904px;
 }
 
 .containers-habilidades {
@@ -275,7 +278,7 @@ nav a:hover {
     padding: 16px;
     border-radius: 16px;
     line-height: 24px;
-    width: 476px;
+    width: 45%;
     box-shadow: 10px 10px 10px 0 #000000;
     margin-bottom: 40px;
 }
@@ -293,7 +296,7 @@ nav a:hover {
 }
 
 #interesses {
-    width: 1080px;
+    width: 90%;
     font-family: 'Roboto Mono', monospace;
     margin: 32px auto auto auto;
 }
@@ -311,8 +314,7 @@ nav a:hover {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 40px;
-    margin-top: 40px;
+    margin: 40px auto;
 }
 
 .interesses-pessoais img {
@@ -336,7 +338,7 @@ nav a:hover {
     padding: 0 16px 16px 16px;
     border-radius: 16px;
     line-height: 24px;
-    width: 520px;
+    width: 60%;
     box-shadow: 10px 10px 10px 0 #000000;
     text-align: center;
     transition: 1s all;
@@ -348,9 +350,10 @@ nav a:hover {
 }
 
 .fechar-texto {
+    width: 100%;
     border: none;
     background: none;
-    margin: 0px 0px 0px 456px;
+    text-align: end;
     font-size: 8px;
     color: #ffffff;
     font-weight: bold;
@@ -363,7 +366,6 @@ footer {
     background-size: auto;
     background-blend-mode: darken;
     border: none;
-    padding: 32px;
     height: 160px;
     width: 100%;
     text-align: center;
