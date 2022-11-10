@@ -136,6 +136,10 @@
         width: 90%;
     }
 
+    #caixa-textos {
+        margin: auto auto 40px auto;
+    }
+
     .icone img{
         width: 40px;
     }
